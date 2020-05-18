@@ -30,4 +30,5 @@ class PagesController < ApplicationController
     def pages_params
       params.require(:page).permit(:title, :author, :body)
     end
+    #this makes it so that only these things are passed to the data base
 end
